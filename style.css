@@ -1,0 +1,507 @@
+/* Font */
+body {
+    background-color: FFFFFF;
+    font-family: "Azeret Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: 0D1321;
+}
+
+/* Universal */
+main {
+    margin: 80px 150px;
+}
+
+* {
+    font-family: "Azeret Mono", monospace;
+    margin: 0;
+    padding: 0;
+}
+
+/* Used Frequently*/
+.par {
+    font-size: 16px;
+    font-weight: 400;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+.hed {
+    font-size: 32px;
+    font-weight: 800;
+    color: #0d1321;
+}
+
+/* Header Navigation Style */
+.nav-bar {
+    font-family: "Azeret Mono", monospace;
+    display: flex;
+    margin: 50px 36px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-h {
+    color: #0d1321;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+
+.resume-btn {
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 24px;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #0d1321;
+    opacity: 0.8;
+}
+
+.resume-btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: #0d1321;
+}
+
+/* Banner Container Images Text And Button*/
+.container-larg-txt {
+    font-weight: 800;
+    margin-top: 32px;
+    text-align: center;
+    width: 998px;
+    color: #0d1321;
+    font-size: 48px;
+}
+
+.banner-contant {
+    text-align: center;
+}
+
+.cont-btn:hover {
+    cursor: pointer;
+    color: #0d1321;
+    background-color: rgb(128, 131, 129);
+}
+
+.container-sml-txt {
+    width: 998px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+    text-align: center;
+    color: #0d1321;
+    opacity: 0.7;
+}
+
+.container {
+    background-image: url("styles/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    max-width: 1140px;
+    min-height: 650px;
+    align-items: center;
+    display: flex;
+    padding: 36px 221px;
+    text-align: center;
+    flex-direction: column;
+}
+
+
+
+.cont-btn {
+    background: black;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    color: white;
+    padding: 21px 23px;
+    border-radius: 8px;
+    border: none;
+}
+
+/* Second Container Images Text And Button*/
+
+.second-container {
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    padding: 80px 97px;
+}
+
+.why-part {
+    text-align: center;
+}
+
+.devolopment {
+    padding: 48px;
+    display: flex;
+    border-radius: 16px;
+    margin-bottom: 32px;
+    background-color: white;
+    justify-content: space-between;
+}
+
+.img-btn-txt {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn-btn {
+    background: none;
+    font-weight: 600;
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.dev-h {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #0d1321b2;
+}
+
+.rgt-txt {
+    margin-bottom: 35px;
+}
+
+/*  Why Web Dev Part */
+
+.why-dev h4 {
+    margin-bottom: 24px;
+}
+
+.why-dev p {
+    margin-bottom: 48px;
+}
+
+.dev-sec {
+    padding: 80px 97px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.why-dev {
+    text-align: center;
+}
+
+
+/* I will Do Coding Part */
+
+.sec-h {
+    font-weight: 700;
+    color: #0d1321b2;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.btn {
+    background-color: white;
+    font-weight: 600;
+    color: #0d1321;
+    opacity: 0.7;
+    font-size: 20px;
+    border: 1px solid #0d1321;
+    padding: 12px 20px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+
+.i-do {
+    margin-bottom: 32px;
+    padding: 48px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 16px;
+    background-color: white;
+}
+
+.i-do p {
+    margin-bottom: 32px;
+}
+
+/* I will Help Part  */
+
+.i-help {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.right-part p {
+    margin-bottom: 32px;
+}
+
+/* I Learn Part  */
+
+.i-learn {
+    display: flex;
+    padding: 48px;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.i-learn p {
+    margin-bottom: 32px;
+}
+
+/* Inspiration Part  */
+
+.inspiration-container {
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.inspiration-contant {
+    text-align: center;
+}
+
+.inspiration-contant h4 {
+    margin-bottom: 24px;
+}
+
+.inspiration-contant p {
+    margin-bottom: 48px;
+}
+
+iframe {
+    border-radius: 16px;
+}
+
+.youtube-video {
+    padding: 32px;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px;
+}
+
+/* Current Target Part  */
+
+.target-container {
+    margin-bottom: 111px;
+}
+
+.target-contant {
+    text-align: center;
+}
+
+.target-contant h4 {
+    margin-bottom: 24px;
+}
+
+.target-contant p {
+    margin-bottom: 48px;
+}
+
+/* Card Part  */
+
+.cards {
+    display: flex;
+}
+
+.card {
+    text-align: left;
+    padding: 40px;
+    border-radius: 16px;
+    margin-right: 24px;
+}
+
+.left-card {
+    background: rgba(255, 76, 30, 0.09);
+}
+
+.middle-card {
+    background: rgba(0, 76, 232, 0.09);
+}
+
+.right-card {
+    background: rgba(255, 223, 0, 0.09);
+}
+
+.card img {
+    margin-bottom: 24px;
+}
+
+.card h5 {
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.card p {
+    margin-bottom: 24px;
+}
+
+.card a {
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* Next Target Part  */
+
+.next-target-container {
+    margin-bottom: 50px;
+}
+
+.next-target-content h4 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.next-target-content>p {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.mern h3 {
+    color: #0d1321;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.mern p {
+    margin-bottom: 24px;
+}
+
+.mern a {
+    color: #0d1321;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.react {
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+}
+
+.react img {
+    margin-right: 24px;
+}
+
+.node {
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    margin-bottom: 24px;
+}
+
+.node img {
+    margin-right: 24px;
+}
+
+.mongodb {
+    display: flex;
+    padding: 40px;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+}
+
+.mongodb img {
+    margin-right: 24px;
+}
+
+/* Support Part  */
+
+#support-section {
+    background-image: url(styles/handshake.jpg);
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: overlay;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    background-size: cover;
+    height: 313px;
+    background-size: cover;
+    margin-bottom: 80px;
+}
+
+.support-info {
+    padding: 64px 48px;
+    text-align: center;
+}
+
+.support-info h4 {
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #ffffff;
+    font-size: 32px;
+
+}
+
+.support-info p {
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+    color: #ffffff;
+    margin-bottom: 24px;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-div input {
+    color: #0d132166;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 19px 20px;
+    border-radius: 8px;
+    width: 548px;
+    background-color: #ffffff;
+    margin-right: 16px;
+    border: none;
+}
+
+.text button {
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 17px 20px;
+    border: none;
+}
+
+.text button:hover {
+    color: white;
+    background-color: #112946;
+}
+
+/* Footer Part  */
+
+.footer-info {
+    padding: 32px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(13, 19, 33, 0.03);
+}
+
+.footer-info p {
+    color: #0d1321;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-info a {
+    margin-right: 24px;
+}
